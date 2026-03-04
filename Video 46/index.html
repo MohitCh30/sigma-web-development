@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations</title>
+    <style>
+        .container {
+            width: 45vw;
+            height:30vh;
+            background-color:aqua ;
+        }
+        .box {
+            width: 54px;
+            height: 34px;
+            background-color: bisque;
+            /* animation: MohitMasterspace; */
+            /* animation-duration: 3s;
+            animation-iteration-count: 3;
+            animation-timing-function: ease-out;
+            animation-delay: 1s;
+            /* animation-direction: alternate-reverse; */
+            /* animation-play-state: ; */
+            animation: MohitMasterspace 3s ease-in 1s 4 alternate-reverse, Mohit69 3s ease-in 5 1s;
+        } 
+        @keyframes MohitMasterspace {
+            from {
+             
+            }
+            to {
+                transform: translateX(1000px);
+            }
+        }
+        @keyframes Mohit69 {
+            0% {
+transform: rotate(90deg);
+            }
+            20% {
+transform: rotate(160deg);
+            }
+            50% {
+transform: rotate(210deg);
+            }
+            80% {
+transform: rotate(270deg);
+            }
+            100% {
+                transform: rotate(320deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>

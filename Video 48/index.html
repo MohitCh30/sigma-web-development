@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bounce Animation</title>
+    <style>
+        .container {
+            position: relative;
+            background-color: blue;
+            width: 80vw;
+            height: 80vh;
+        }
+        .box {
+            height: 129px;
+            width: 129px;
+            background-color: red;
+            border-radius: 76px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            animation:MohitMad2 3s linear infinite, MohitMad3 1s ease-out infinite alternate;
+        }
+        @keyframes MohitMad2 {
+            from {
+                  left: 0%;
+            }
+            to {
+             left: 100%;
+            }
+        }
+        @keyframes MohitMad3 {
+            from {
+           bottom: 0%;
+            }
+            to {
+            bottom: 100%;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+
+</body>
+</html>
