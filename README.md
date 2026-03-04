@@ -68,15 +68,15 @@ sigma-web-development/
 
 1. **Clone the repository**
    ```bash
-git clone https://github.com/MohitCh30/sigma-web-development.git
-cd sigma-web-development
-```
+   git clone https://github.com/MohitCh30/sigma-web-development.git
+   cd sigma-web-development
+   ```
 
 2. **Open any video folder** and launch the HTML file in your browser
    ```bash
-cd "Video 1"
-open index.html
-```
+   cd "Video 1"
+   open index.html
+   ```
 
 That's it — no build tools or dependencies needed. Just a browser!
 
